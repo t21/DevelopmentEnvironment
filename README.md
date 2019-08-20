@@ -48,3 +48,9 @@ Make git aware of the global gitignore file
 ```
 git config --global core.excludesfile ~/.gitignore_global
 ```
+
+### Configure user and email 
+```
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```

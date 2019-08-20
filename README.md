@@ -38,3 +38,13 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 export PROMPT_COMMAND='__git_ps1 "$green\u$default@$purple\h$default:$blue\w$default " "\\\$ "'
 
 ```
+
+### Configure global gitignore file
+Create global gitignore file
+```
+cat .DS_Store > ~/.gitignore_global
+```
+Make git aware of the global gitignore file
+```
+git config --global core.excludesfile ~/.gitignore_global
+```

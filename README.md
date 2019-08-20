@@ -42,7 +42,7 @@ export PROMPT_COMMAND='__git_ps1 "$green\u$default@$purple\h$default:$blue\w$def
 ### Configure global gitignore file
 Create global gitignore file
 ```
-cat .DS_Store > ~/.gitignore_global
+echo ".DS_Store" > ~/.gitignore_global
 ```
 Make git aware of the global gitignore file
 ```

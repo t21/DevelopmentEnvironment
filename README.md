@@ -54,3 +54,13 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
+
+### Setup an SSH key
+```
+ssh-keygen
+```
+Hit return a couple of times -- leave password blank if you want.
+```
+cat ~/.ssh/id_rsa.pub | pbcopy
+
+Paste that code into your settings page on your repository host(s).

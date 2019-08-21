@@ -35,7 +35,7 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 #export PS1="$green\u$purple\h$blue\w$(__git_ps1)$default $ "
-export PROMPT_COMMAND='__git_ps1 "$green\u$default@$purple\h$default:$blue\w$default " "\\\$ "'
+export PROMPT_COMMAND='__git_ps1 "$green\u$default@$purple\h$default:$blue\w$default" " \\\$ "'
 
 ```
 
